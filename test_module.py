@@ -11,3 +11,4 @@ def test_program():
     for filename in files_list:
         assert filename in dir_files, f'Файл `{filename}` не найден в корне репозитория'
 
+
